@@ -191,7 +191,6 @@ end
 function Result:setStyle(textPiece: string?, options: StyleOptions)
 	if not self.value then return self end
 
-	-- applyStyle на возвращает строку (RichText) — и также создаёт/обновляет линии, если нужно
 	local function applyStyle(inner: string): string
 		local styled = inner
 
@@ -471,5 +470,6 @@ function AdvancedFormat:formatString(str: string, TextObject: TextBox? | TextLab
 	end
 	return Result.new(result, self, TextObject)
 end
+
 
 return AdvancedFormat
