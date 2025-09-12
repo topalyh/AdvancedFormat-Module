@@ -3,7 +3,16 @@
     AdvancedFormat Version 1.0.0
     Author: @topalyh
     License: MIT
-**📦 Installation**
+**📦 File Installation**
+
+    1. Download file
+    2. Open Roblox studio (if you dont have Roblox studio, download here: https://create.roblox.com)
+    3. Open any place
+    4. RMB to Workspace > Insert > Insert from file
+    5. Select your file (file name should be AdvancedFormat_Module.rbxm)
+    6. Click open
+    7. Done
+**📦 Roblox Installation**
 
     Put this module into ReplicatedStorage and require it from there.
 
