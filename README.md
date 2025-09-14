@@ -1,9 +1,9 @@
-**⚠️ MODULE STILL IN WORK!**
+# **⚠️ MODULE STILL IN WORK!**
 
     AdvancedFormat Version 1.0.0
     Author: @topalyh
     License: MIT
-**📦 File Installation**
+# **📦 File Installation**
 
     1. Download file
     2. Open Roblox studio (if you dont have Roblox studio, download here: https://create.roblox.com)
@@ -12,14 +12,14 @@
     5. Select your file (file name should be AdvancedFormat_Module.rbxm)
     6. Click open
     7. Done
-**📦 Roblox Installation**
+# **📦 Roblox Installation**
 
     Put this module into ReplicatedStorage and require it from there.
 
     Example:
         local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
         local format = AdvancedFormat.new()
-**🚀 Quick Example**
+# **🚀 Quick Example**
 
     local Name = "John Doe"
     local Points = 100
@@ -32,7 +32,7 @@
     
     print(text:GetResult())
     -- Hello John Doe, you earned 100 in 01:00:00!
-**📖 Documentation**
+# **📖 Documentation**
 
     AdvancedFormat is a Roblox Lua module that provides advanced string formatting
     with placeholders and rich text styling (colors, fonts, bold, italic, strikethrough, underline).
@@ -41,7 +41,7 @@
     ✅ Has multi-function support (method chaining like :func1():func2():func3())  
     ✅ Support color functions (like RGB, Hex and HSV)
     ✅ Has custom style support (like Strikethrough and Underline, but it buggy and requires turned off TextWrapped and TextScaled)
-**📑 API Reference**
+# **📑 API Reference**
 
     -- Formatter
     local format = AdvancedFormat.new()
@@ -81,7 +81,7 @@
     format:ToHex(255, 0, 255) -- "#ff00ff"
     format:ToHSV(100, 0, 100) -- 255, 255, 255
     format:ToHSV(100, 100, 100) -- "255, 0, 0"
-**🎨 Notes**
+# **🎨 Notes**
 
     ⚠️ Important: Make sure "RichText" is enabled on your TextLabel, TextButton or TextBox.
 
@@ -104,7 +104,7 @@
    	⚠️ Experemental styles:
    		- Strikethrough
         - Underline
-**📝 Changelog**
+# **📝 Changelog**
 
     1.0.0
         - Initial release with placeholders and rich text styling
