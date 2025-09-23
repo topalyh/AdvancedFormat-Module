@@ -449,8 +449,10 @@ end
 function AdvancedFormat.new(printInitMessage): AdvancedFormat
 	local self = setmetatable({}, AdvancedFormat)
 	self.placeholders = {}
-	checkVersionEvent.OnServerEvent:Connect(function(url)
-		warn(scriptPrefix.."Your module version is Up-to update. Please update here: "..url)
+	pcall(function()
+		checkVersionEvent.OnServerEvent:Connect(function(url)
+			warn(scriptPrefix.."Your module version is Up-to update. Please update here: "..url)
+		end)
 	end)
 	if not printInitMessage then
 		printInitMessage = true
@@ -473,3 +475,4 @@ end
 
 
 return AdvancedFormat
+
