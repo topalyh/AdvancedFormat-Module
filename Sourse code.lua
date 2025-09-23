@@ -446,14 +446,14 @@ function AdvancedFormat:ToHSV(h: number?, s: number?, v: number?): string
 end
 
 -- === AdvancedFormat ===
-function AdvancedFormat.new(printInitMessage): AdvancedFormat
+function AdvancedFormat.new(printInitMessage, onClient): AdvancedFormat
 	local self = setmetatable({}, AdvancedFormat)
 	self.placeholders = {}
-	pcall(function()
+	if not onClient then
 		checkVersionEvent.OnServerEvent:Connect(function(url)
 			warn(scriptPrefix.."Your module version is Up-to update. Please update here: "..url)
 		end)
-	end)
+	end
 	if not printInitMessage then
 		printInitMessage = true
 	end
@@ -475,4 +475,5 @@ end
 
 
 return AdvancedFormat
+
 
