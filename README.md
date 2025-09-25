@@ -39,8 +39,7 @@
 
     ✅ Works with Roblox RichText
     ✅ Has multi-function support (method chaining like :func1():func2():func3())  
-    ✅ Support color functions (like RGB, Hex and HSV)
-    ✅ Has custom style support (like Strikethrough and Underline, but it buggy and requires turned off TextWrapped and TextScaled)
+    ✅ Support color functions (like RGB, Hex, HSV, HSL and CMYK)
 # 📑 API Reference
 
     -- Formatter
@@ -80,7 +79,9 @@
     format:ToRGB(255, 255, 255) -- "255, 255, 255"
     format:ToHex(255, 0, 255) -- "#ff00ff"
     format:ToHSV(100, 0, 100) -- 255, 255, 255
-    format:ToHSV(100, 100, 100) -- "255, 0, 0"
+    format:ToHSV(1, 1, 1) -- 255, 0, 0
+    format:ToHSL(120, 100, 50) -- 0, 255, 0
+    format:ToCMYK(0, 100, 0, 0) -- 255, 0, 255
 # 🎨 Notes
 
     ⚠️ Important: Make sure "RichText" is enabled on your TextLabel, TextButton or TextBox.
@@ -100,14 +101,13 @@
     Supported styles:
         - Bold
         - Italic
-        - None (default)
-   	⚠️ Experemental styles:
    		- Strikethrough
         - Underline
+        - None (default)
 # 📝 Changelog
 
     1.0.0
         - Initial release with placeholders and rich text styling
-        - Added support for RGB, HEX and HSV color utilities
+        - Added support for RGB, HEX, HSV, HSL and CMYK color utilities
         - Added style editing (Bold / Italic / Strikethrough / Underline / None)
         - Added font support
