@@ -17,11 +17,10 @@
     Put this module into ReplicatedStorage and require it from there.
 
     Example:
-        `local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
-        local format = AdvancedFormat.new()`
+        local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
+        local format = AdvancedFormat.new()
 # 🚀 Quick Example
 
-    `
     local Name = "John Doe"
     local Points = 100
     local Time = 3600
@@ -33,7 +32,6 @@
     
     print(text:GetResult())
     -- Hello John Doe, you earned 100 in 01:00:00!
-    `
 # 📖 Documentation
 
     AdvancedFormat is a Roblox Lua module that provides advanced string formatting
