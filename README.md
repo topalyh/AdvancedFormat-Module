@@ -17,10 +17,13 @@
     Put this module into ReplicatedStorage and require it from there.
 
     Example:
+        ```
         local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
         local format = AdvancedFormat.new()
+        ```
 # 🚀 Quick Example
 
+    ```
     local Name = "John Doe"
     local Points = 100
     local Time = 3600
@@ -32,6 +35,7 @@
     
     print(text:GetResult())
     -- Hello John Doe, you earned 100 in 01:00:00!
+    ```
 # 📖 Documentation
 
     AdvancedFormat is a Roblox Lua module that provides advanced string formatting
@@ -42,6 +46,7 @@
     ✅ Support color functions (like RGB, Hex, HSV, HSL and CMYK)
 # 📑 API Reference
 
+    ```
     -- Formatter
     local format = AdvancedFormat.new()
     local text = format:formatString("Hello {name}")
@@ -82,6 +87,7 @@
     format:ToHSV(1, 1, 1) -- 255, 0, 0
     format:ToHSL(120, 100, 50) -- 0, 255, 0
     format:ToCMYK(0, 100, 0, 0) -- 255, 0, 255
+    ```
 # 🎨 Notes
 
     ⚠️ Important: Make sure "RichText" is enabled on your TextLabel, TextButton or TextBox.
