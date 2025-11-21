@@ -428,6 +428,9 @@ function AdvancedFormat:ToRGB(r: number?, g: number?, b: number?): string
 end
 
 function AdvancedFormat:ToHex(r: number, g: number, b: number): string
+	if type(r) == "string" and (g == nil and b == nil) then
+		return string.format("#%06x", r)
+	end
 	r = math.clamp(math.floor(r), 0, 255)
 	g = math.clamp(math.floor(g), 0, 255)
 	b = math.clamp(math.floor(b), 0, 255)
@@ -475,5 +478,6 @@ end
 
 
 return AdvancedFormat
+
 
 
