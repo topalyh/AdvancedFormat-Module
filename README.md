@@ -6,7 +6,7 @@
 # 📦 File Installation
 
 1. Download file
-2. Open Roblox studio (if you dont have Roblox studio, download here: [https://create.roblox.com])
+2. Open Roblox studio (if you dont have Roblox studio, download here: [https://create.roblox.com](https://create.roblox.com))
 3. Open any place
 4. RMB(Right Mouse Button) to Workspace > Insert > Insert from file
 5. Select your file (file name should be AdvancedFormat_Module.rbxm)
