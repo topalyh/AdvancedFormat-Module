@@ -17,12 +17,12 @@
 Put this module into ReplicatedStorage and require it from there.
 
 Example:
-    ```
+    ```lua
     local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
     local format = AdvancedFormat.new()
     ```
 # 🚀 Quick Example
-    ```
+    ```lua
     local Name = "John Doe"
     local Points = 100
     local Time = 3600
