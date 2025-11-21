@@ -88,30 +88,30 @@ format:ToCMYK(0, 100, 0, 0) -- 255, 0, 255
 ```
 # 🎨 Notes
 
-    ⚠️ Important: Make sure "RichText" is enabled on your TextLabel, TextButton or TextBox.
+⚠️ Important: Make sure "RichText" is enabled on your TextLabel, TextButton or TextBox.
 
-    Available utilities:
+Available utilities:
         - format:ToRGB(r, g, b)
         - format:ToHex("#rrggbb")
 
-    Supported fonts:
-        - SourceSansPro (default)
-        - Gotham
-        - Oswald
-        - Arial
-        - Cartoon
-        - Fantasy
-        - BuilderSans
-    Supported styles:
-        - Bold
-        - Italic
-   		- Strikethrough
-        - Underline
-        - None (default)
+Supported fonts:
+    - SourceSansPro (default)
+    - Gotham
+    - Oswald
+    - Arial
+    - Cartoon
+    - Fantasy
+    - BuilderSans
+Supported styles:
+    - Bold
+    - Italic
+   	- Strikethrough
+    - Underline
+    - None (default)
 # 📝 Changelog
 
     1.0.0
         - Initial release with placeholders and rich text styling
         - Added support for RGB, HEX, HSV, HSL and CMYK color utilities
-        - Added style editing (Bold / Italic / Strikethrough / Underline / None)
+        - Added style editing (Bold / Italic / Strikethrough / Underline)
         - Added font support
