@@ -5,22 +5,24 @@
     License: MIT
 # 📦 File Installation
 
-    1. Download file
-    2. Open Roblox studio (if you dont have Roblox studio, download here: https://create.roblox.com)
-    3. Open any place
-    4. RMB to Workspace > Insert > Insert from file
-    5. Select your file (file name should be AdvancedFormat_Module.rbxm)
-    6. Click open
-    7. Done
+1. Download file
+2. Open Roblox studio (if you dont have Roblox studio, download here: https://create.roblox.com)
+3. Open any place
+4. RMB(Right Mouse Button) to Workspace > Insert > Insert from file
+5. Select your file (file name should be AdvancedFormat_Module.rbxm)
+6. Click open
+7. Done
 # 📦 Roblox Installation
 
-    Put this module into ReplicatedStorage and require it from there.
+Put this module into ReplicatedStorage and require it from there.
 
-    Example:
-        local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
-        local format = AdvancedFormat.new()
+Example:
+    ```
+    local AdvancedFormat = require(game.ReplicatedStorage:FindFirstChild("AdvancedFormat"))
+    local format = AdvancedFormat.new()
+    ```
 # 🚀 Quick Example
-
+    ```
     local Name = "John Doe"
     local Points = 100
     local Time = 3600
