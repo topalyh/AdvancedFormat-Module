@@ -81,6 +81,7 @@ format:timeFormat(61, "mm:ss") -- "01:01"
 format:invert("#ffffff") -- #000000
 format:ToRGB(255, 255, 255) -- "255, 255, 255"
 format:ToHex(255, 0, 255) -- "#ff00ff"
+format:ToHex("16777215") -- "#ffffff"
 format:ToHSV(100, 0, 100) -- 255, 255, 255
 format:ToHSV(1, 1, 1) -- 255, 0, 0
 format:ToHSL(120, 100, 50) -- 0, 255, 0
